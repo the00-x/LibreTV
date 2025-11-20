@@ -22,6 +22,29 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
+    // ===== 小盒子系列 =====
+    xhzSingle: {
+        api: 'http://xhztv.top/xhz',
+        name: '小盒子单仓',
+        adult: false
+    },
+    xhz4K: {
+        api: 'http://xhztv.top/4k.json',
+        name: '小盒子4K',
+        adult: false
+    },
+    fanTaiYing: {
+        api: 'http://fty.xxooo.cf/tv',
+        name: '饭太硬',
+        adult: false
+    },
+    xhzMulti: {
+        api: 'http://xhztv.top/dc',
+        name: '小盒子多仓',
+        adult: false
+    }
+};
+const API_SITES = {
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
