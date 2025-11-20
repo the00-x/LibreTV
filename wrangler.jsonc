@@ -1,7 +1,0 @@
-{
-  "name": "my-site",
-  "assets": {
-    "directory": "./dist"
-  },
-  "compatibility_date": "2025-11-20"
-}
